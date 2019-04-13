@@ -17,22 +17,15 @@
 !/log/.keep
 !/tmp/.keep
 
-/app/assets/fonts
 /node_modules
 /yarn-error.log
 /tmp
 /vendor
 /log
-/lib
-/docker
-/db
 
 .byebug_history
 *.box
 .vagrant/
 /d
 /Vagrantfile
-/Dockerfile
-/docker-compose.yml
-/nginx
 /script

@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
-  %w(home about contact pathgather kustomer rope lettering illustrations personal).each do |meth|
+  layout false, only: [:acme_challenge, :acme_challenge2]
+
+  %w(home about contact pathgather kustomer rope lettering illustrations personal acme_challenge acme_challenge2).each do |meth|
     define_method(meth) do
       @page = meth
     end
