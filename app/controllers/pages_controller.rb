@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   %w(home about contact pathgather kustomer rope lettering illustrations personal acme_challenge acme_challenge2).each do |meth|
     define_method(meth) do
       @page = meth
+      render meth
     end
   end
 
