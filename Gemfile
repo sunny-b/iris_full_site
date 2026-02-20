@@ -11,6 +11,10 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0'
 gem 'rack', '~> 2.0'
+# Ruby 3.1 extracted these from stdlib into separate gems
+gem 'net-smtp'
+gem 'net-pop'
+gem 'net-imap'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Passenger as the app server
